@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"allowJs": true,
+		"composite": true,
+		"target": "ESNext",
+		"sourceMap": false,
+		"declaration": true,
+		"skipLibCheck": true,
+		"module": "NodeNext",
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"noImplicitThis": true,
+		"esModuleInterop": true,
+		"noUnusedParameters": true,
+		"strictFunctionTypes": true,
+		"moduleResolution": "nodenext",
+		"useDefineForClassFields": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"types": ["node"]
+	},
+	"exclude": ["node_modules", "eslint.config.js"]
+}

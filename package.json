@@ -1,0 +1,58 @@
+{
+	"name": "xiying",
+	"private": true,
+	"- type": "module",
+	"version": "1.0.0",
+	"license": "MPL-2.0",
+	"description": "汐萤 AI Agent",
+	"repository": "github:FurryRbl/Xiying",
+	"homepage": "https://github.com/FurryRbl/Xiying",
+	"bugs": {
+		"email": "SharpIce@SharpIce.top",
+		"url": "https://github.com/FurryRbl/Xiying/issues"
+	},
+	"author": {
+		"name": "SharpIce",
+		"url": "https://SharpIce.top",
+		"email": "SharpIce@SharpIce.top"
+	},
+	"funding": [
+		{
+			"type": "ko-fi",
+			"url": "https://ko-fi.com/SharpIce"
+		},
+		{
+			"type": "ifdian",
+			"url": "https://ifdian.net/@SharpIce"
+		}
+	],
+	"engines": {
+		"node": ">=20"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"onFail": "error"
+		},
+		"packageManager": {
+			"name": "pnpm",
+			"onFail": "error"
+		}
+	},
+	"scripts": {
+		"clean": "rimraf build",
+		"lint": "eslint --fix .",
+		"format": "prettier . --write"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.19.0",
+		"@types/node": "^22.12.0",
+		"eslint": "^9.19.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"prettier": "^3.4.0",
+		"rimraf": "^6.0.1",
+		"typescript": "^5.7.3",
+		"typescript-eslint": "^8.22.0"
+	}
+}

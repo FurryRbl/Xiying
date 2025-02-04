@@ -1,0 +1,13 @@
+{
+	"name": "@xiying-core/time",
+	"private": true,
+	"type": "module",
+	"version": "1.0.0",
+	"license": "MPL-2.0",
+	"dependencies": {
+		"date-fns": "^4.1.0"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
+}
